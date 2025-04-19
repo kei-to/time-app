@@ -1,7 +1,5 @@
 .normal {
     background-color: #e2f3e6;
-    padding:'10px';
-    margin-bottom:'10px';
     border: 1px solid;
     border-color: #eafaed;
     border-radius: 10px;
@@ -10,8 +8,6 @@
   
 .highlight {
     background-color: #f8d7da;
-    padding:'10px';
-    margin-bottom:'10px';
     border: 1px solid;
     border-color: #dc3545;
     border-radius: 10px;
@@ -24,3 +20,19 @@
     font-family:Nunito, sans-serif;
     font-weight: 600;
 }
+
+.delete-btn {
+    background-color: #b34332;
+    color: #fffbe9;
+    border: 1px solid #843b2d;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
+
+  .right-align {
+    margin-left: 18vw;
+  }

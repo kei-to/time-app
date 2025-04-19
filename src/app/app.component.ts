@@ -139,4 +139,8 @@ export class AppComponent {
     return formatDate(date, 'HH:mm', 'ja-JP');
   }
 
+  removeElement(index: number): void {
+    this.elements.splice(index, 1);
+  }
+
 }
