@@ -40,3 +40,9 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+.ssh/id_ci_cd
+.ssh/id_ci_cd.pub
+
+# android ios
+# android/*
+# ios/*
